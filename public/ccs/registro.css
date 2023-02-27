@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+
+}
+
+:root{
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisOscuro: #666;
+    --grisClaro: #ebebeb;
+    --verde: #39b54a;
+
+}
+
+.main-header{
+    background-color: var(--amarillo);
+    padding: 20px;
+    font-size: 12px;
+}
+.logo{
+    width: 50%;
+    padding: 10px;
+}
+.copy-buscar{
+    background-color: var(--grisClaro);
+    padding: 5px ;
+    display: block;
+    text-align: center;
+    max-width: 35px;
+    height: 35px;
+}
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+}
+.buscar{
+    position: absolute;
+    padding: 5px;
+    width: 50%;
+}
+.buscar input{
+    width: 50%;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.btn{
+    position: absolute;
+    top: o;
+    right: 0;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+}
+.titulos{
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+    flex-grow: 0,30;
+}
+.descuentos{
+    font-size: 16px;
+    color: var(--verde);
+    flex-grow: 0,70;
+}
+.descripcion{
+    font-size: 16px;
+    display: none;
+}
+.hamburguer-button{
+    background-color: var(--azul);
+    margin: 10%;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 9px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+}
+.main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-navbar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+}
+.main-navbar{
+    display: none;
+}
+
+.capturaDatos{
+    width: 30%;
+    background-color: var(--grisClaro);
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 250px;
+    padding: 10px;
+    border-radius: 10px 10px 50px;
+}
+.capturaDatos{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
